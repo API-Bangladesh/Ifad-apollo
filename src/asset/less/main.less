@@ -1026,12 +1026,7 @@ input[type=number] {
 
 
 
-
-
-
-
-
-// about CSS part
+// about CSS Start
 .pageBanner{
 	height: 300px;
 	background-color: rgba(117, 117, 117, 0.65);
@@ -1078,6 +1073,26 @@ input[type=number] {
 	color: #fff !important;
 }
 
+// .download Pdf
+#about_product .tabItem{
+	position: relative;
+}
+#about_product .downloadPdf{
+	border: 0;
+	padding: 9px 12px;
+	position: absolute;
+	right: 0;
+	top: -5px;
+	background-color: #aaa;
+	border-radius: 4px;
+	color: #fff;
+	transition: all 0.4s;
+}
+#about_product .downloadPdf:hover{
+	background-color: #EE3235;
+}
+// .download Pdf
+
 @media (max-width: 991px){
 	#about_product .nav-tabs{
 		margin-top: 30px !important;
@@ -1087,12 +1102,7 @@ input[type=number] {
 		padding-bottom: 20px !important;
 	}
 }
-
  // about CSS end
-
-
-
-
 
 
 
@@ -1241,9 +1251,13 @@ input[type=number] {
 
 
 
+// about_product CSS start 
+
 #about_product .about-us-img {
-	width: 360px;
-	height: 500px;
+	max-width: 360px;
+	width: 100%;
+	max-height: 500px;
+	height: auto;
 	object-fit: contain;
 }
 
@@ -1251,21 +1265,16 @@ input[type=number] {
 	#about_product .nav-tabs {
 		margin-top: 30px !important;
 	}
-	#about_product .section_padding {
-		padding-top: 20px !important;
-		padding-bottom: 20px !important;
-	}
-	#about_product .about-us-img {
-		margin-top: -80px !important;
-	}
 	#about_product p {
 		font-size: 16px !important;
 		text-align: justify !important;
 	}
 }
-@media (max-width: 776px) {
+@media (max-width: 767px) {
 	#about_product .about-us-img {
 		margin-top: 0px !important;
+		margin: auto !important;
+		display: block;
 	}
 	#about_product p {
 		font-size: 16px !important;
@@ -1276,30 +1285,17 @@ input[type=number] {
 		padding-top: 10px;
 	}
 	#about_product .about-us-img {
-		width: 360px;
-		height: 400px;
-		object-fit: contain;
+		max-height: 400px;
 	}
 }
+// about_product CSS end 
 
 
-.tabItem{
-	position: relative;
-}
-.downloadPdf{
-	border: 0;
-	padding: 9px 12px;
-	position: absolute;
-	right: 0;
-	top: -5px;
-	background-color: #aaa;
-	border-radius: 4px;
-	color: #fff;
-	transition: all 0.4s;
-}
-.downloadPdf:hover{
-	background-color: #EE3235;
-}
+
+
+
+
+
 
 
 

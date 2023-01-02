@@ -48,16 +48,16 @@ const Manubar = () => {
 							</NavDropdown.Item>
 							</NavDropdown> */}
                                 <Nav.Item>
-                                    <Link className='nav-link' to='/about_product'>Dealer</Link>
+                                    <Link className='nav-link' to='#'>Dealer</Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Link className='nav-link' to='/about_product'>News & Events</Link>
+                                    <Link className='nav-link' to='#'>News & Events</Link>
                                 </Nav.Item>
                                 <Nav.Item>
                                     <Link className='nav-link' to='/about_us'>About US</Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Link className='nav-link' to='/about_product'>Contact</Link>
+                                    <Link className='nav-link' to='#'>Contact</Link>
                                 </Nav.Item>
                             </Nav>
                             <Form className="d-flex flex-column  align-items-lg-end  align-items-center">

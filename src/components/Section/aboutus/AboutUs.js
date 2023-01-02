@@ -13,11 +13,11 @@ const AboutUs = () => {
 				</div>
 				<div className="container section_padding">
 					<div className="row">
-						<div className="col-lg-4">
-							<img src="https://i.postimg.cc/MGQYtNZ3/1821911411who-we-are.png" alt="" className="about-us-img img-fluid" />
+						<div className="col-lg-4 col-md-4">
+							<img src="https://i.postimg.cc/MGQYtNZ3/1821911411who-we-are.png" alt="" className="about-us-img"/>
 						</div>
-						<div className="col-lg-8">
-							<h2 className="text-start font-oswald ">Who we are</h2>
+						<div className="col-lg-8 col-md-8">
+							<h2 className="text-start font-oswald sec-head">Who we are</h2>
 							<p className="text-start font-calibri fs-18 text-content-align lh-base">
 								The IFAD group was established in 1985 and moved more quickly in the direction of stability and growth under the
 								leadership of Mr. Iftekhar Ahmed Tipu. The group has grown to include many firms in industries like automobiles, food,
